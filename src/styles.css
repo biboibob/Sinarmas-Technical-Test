@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+
+  .display {
+    display: flex;
+    gap: 10px;
+
+    .pills {
+      padding: 5px 10px;
+      border-radius: 20px;
+      color: white;
+    }
+
+    .inp{
+      background-color: #5B99C2;
+    }
+    .rev{
+      background-color: #FF8C9E;
+    }
+    .res{
+      background-color: #A2CA71;
+    }
+  }
+}
